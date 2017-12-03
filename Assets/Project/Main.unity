@@ -260,7 +260,7 @@ RectTransform:
   m_GameObject: {fileID: 77009448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.008333333, y: 0.008333333, z: 0.008333333}
+  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
   m_Children:
   - {fileID: 1403675063}
   - {fileID: 556070770}
@@ -546,7 +546,7 @@ RectTransform:
   m_GameObject: {fileID: 139256547}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.008333333, y: 0.008333333, z: 0.008333333}
+  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
   m_Children:
   - {fileID: 2076656710}
   m_Father: {fileID: 500696458}
@@ -1983,8 +1983,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818944936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 480, y: 270, z: 0}
-  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
+  m_LocalPosition: {x: 528, y: 279.5, z: 0}
+  m_LocalScale: {x: 0.46583334, y: 0.46583334, z: 0.46583334}
   m_Children:
   - {fileID: 1407945110}
   m_Father: {fileID: 500696458}
@@ -2252,7 +2252,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823855469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 627.7667, y: -811.925, z: 0}
+  m_LocalPosition: {x: 694.5526, y: -811.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 492677778}
@@ -2519,7 +2519,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 978497491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -480.16675, y: 561.63, z: 0}
+  m_LocalPosition: {x: -546.95264, y: 561.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1407945110}
@@ -2742,6 +2742,15 @@ GameObject:
   - component: {fileID: 1038786965}
   - component: {fileID: 1038786964}
   - component: {fileID: 1038786968}
+  - component: {fileID: 1038786972}
+  - component: {fileID: 1038786971}
+  - component: {fileID: 1038786970}
+  - component: {fileID: 1038786969}
+  - component: {fileID: 1038786974}
+  - component: {fileID: 1038786973}
+  - component: {fileID: 1038786975}
+  - component: {fileID: 1038786977}
+  - component: {fileID: 1038786976}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2762,23 +2771,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 37.07381, y: 44.45578}
+  scrollPos: {x: -114.46086, y: -63.935394}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 338
-  zoom: 0.70000035
+  blockViewHeight: 242
+  zoom: 0.82000023
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1038786933}
-  selectedCommands:
-  - {fileID: 1038786942}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1038786940}
+  - {fileID: 1038786975}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2869,7 +2877,7 @@ MonoBehaviour:
   itemId: 15
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1038786929}
+  targetBlock: {fileID: 1038786933}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -3224,8 +3232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 384.70877
-    y: 109.26582
+    x: 401.8516
+    y: 172.12299
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3240,6 +3248,7 @@ MonoBehaviour:
   - {fileID: 1038786962}
   - {fileID: 1038786951}
   - {fileID: 1038786956}
+  - {fileID: 1038786972}
   - {fileID: 1038786960}
   - {fileID: 1038786961}
   - {fileID: 1038786950}
@@ -3256,8 +3265,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 400.47073
-    y: 253.98917
+    x: 400.47076
+    y: 233.98915
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3303,7 +3312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.61407
     y: 214.09576
-    width: 120
+    width: 125.60973
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3314,7 +3323,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 1038786943}
   - {fileID: 1038786953}
+  - {fileID: 1038786971}
+  - {fileID: 1038786974}
   - {fileID: 1038786952}
+  - {fileID: 1038786973}
 --- !u!114 &1038786950
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3373,7 +3385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 24
-  indentLevel: 0
+  indentLevel: 1
   text: Trigger your gag reflex
   description: 
   targetBlock: {fileID: 1038786947}
@@ -3730,6 +3742,208 @@ MonoBehaviour:
   itemId: 43
   indentLevel: 0
   menuDialog: {fileID: 77009450}
+--- !u!114 &1038786969
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: hows life
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1038786970
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 400.0688
+    y: 302.6868
+    width: 128.04877
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 46
+  blockName: ask question
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1038786969}
+  - {fileID: 1038786977}
+  - {fileID: 1038786976}
+--- !u!114 &1038786971
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  text: ask question
+  description: 
+  targetBlock: {fileID: 1038786970}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1038786972
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 1
+  storyText: it was delicious
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1038786973
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+--- !u!114 &1038786974
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  compareOperator: 3
+  variable: {fileID: 1038786940}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1038786975
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: relationship
+  value: 0
+--- !u!114 &1038786976
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1038786970}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1038786977
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f455683d4ba4405b8dbba457159620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  luaEnvironment: {fileID: 0}
+  luaFile: {fileID: 0}
+  luaScript: 'local rrr = getvar(flowchart, "relationship").value
+
+    rrr = rrr + 1
+
+    rrr = math.min(3, rrr)
+
+    return rrr'
+  runAsCoroutine: 1
+  waitUntilFinished: 1
+  returnVariable: {fileID: 1038786975}
 --- !u!1 &1041174875
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,7 +4261,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1252756789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 888.16675, y: -336.87, z: 0}
+  m_LocalPosition: {x: 954.95264, y: -336.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1407945110}
