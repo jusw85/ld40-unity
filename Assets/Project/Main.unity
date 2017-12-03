@@ -489,7 +489,14 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 817cc0de63814d54188cf40f9f3e56b6, type: 3}
+  - {fileID: 21300000, guid: 9ae8fafe436dbb74fa4d23c82a6d4e18, type: 3}
+  - {fileID: 21300000, guid: 521fe5db0c0280243a31116aa41c6d8f, type: 3}
   - {fileID: 21300000, guid: bd0d889c223dd2240b620cb0a9ebc4a5, type: 3}
+  - {fileID: 21300000, guid: 13fccb941e8f49b41a50a1bba7842f4e, type: 3}
+  - {fileID: 21300000, guid: d9cf3333d8737cf42aa7174a8d44f6a5, type: 3}
+  - {fileID: 21300000, guid: 6be54e6defab3654b946be6410548fa3, type: 3}
+  - {fileID: 21300000, guid: ea0070924402eeb49a44681afd3da26d, type: 3}
+  - {fileID: 21300000, guid: bc3b3ac2a39dfe5459b7b54856637ea5, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -2767,9 +2774,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1038786944}
-  selectedCommands:
-  - {fileID: 1038786930}
+  - {fileID: 1038786949}
+  selectedCommands: []
   variables:
   - {fileID: 1038786940}
   description: 
