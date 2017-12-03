@@ -260,7 +260,7 @@ RectTransform:
   m_GameObject: {fileID: 77009448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
+  m_LocalScale: {x: 0.008333333, y: 0.008333333, z: 0.008333333}
   m_Children:
   - {fileID: 1403675063}
   - {fileID: 556070770}
@@ -456,6 +456,54 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 89964672}
+--- !u!1 &129543952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 129543953}
+  - component: {fileID: 129543954}
+  m_Layer: 0
+  m_Name: Zol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &129543953
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b20518d45890e4be59ba82946f88026c, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129543952}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 783405805}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &129543954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129543952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Zol
+  nameColor: {r: 0, g: 0, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &133140461
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Girl
+  nameText: ${girlName}
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -546,7 +594,7 @@ RectTransform:
   m_GameObject: {fileID: 139256547}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
+  m_LocalScale: {x: 0.008333333, y: 0.008333333, z: 0.008333333}
   m_Children:
   - {fileID: 2076656710}
   m_Father: {fileID: 500696458}
@@ -1948,6 +1996,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 133140463}
+  - {fileID: 129543953}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1983,8 +2032,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818944936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 418, y: 279.5, z: 0}
-  m_LocalScale: {x: 0.46583334, y: 0.46583334, z: 0.46583334}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 1407945110}
   m_Father: {fileID: 500696458}
@@ -2252,7 +2301,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823855469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 458.41663, y: -811.925, z: 0}
+  m_LocalPosition: {x: 627.7667, y: -811.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 492677778}
@@ -2519,7 +2568,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 978497491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -310.81665, y: 561.63, z: 0}
+  m_LocalPosition: {x: -480.16675, y: 561.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1407945110}
@@ -2785,6 +2834,7 @@ GameObject:
   - component: {fileID: 1038786997}
   - component: {fileID: 1038786989}
   - component: {fileID: 1038786987}
+  - component: {fileID: 1038787012}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2805,22 +2855,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -73.56563, y: -53.957005}
+  scrollPos: {x: -247.39336, y: 107.270325}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 331
-  zoom: 0.7600003
+  blockViewHeight: 178
+  zoom: 0.6400004
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1038787003}
+  selectedCommands:
+  - {fileID: 1038787002}
   variables:
   - {fileID: 1038786940}
   - {fileID: 1038786975}
+  - {fileID: 1038787012}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -3815,7 +3868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 390.78964
+    x: 387.66464
     y: 222.46405
     width: 120
     height: 40
@@ -4008,7 +4061,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: how's life
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4058,7 +4111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 542.7288
     y: 261.4067
-    width: 144.73682
+    width: 145.31244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4091,9 +4144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 556.0209
-    y: 192.60135
-    width: 123.68418
+    x: 520.0834
+    y: 178.53885
+    width: 121.874954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4167,8 +4220,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 730.81116
-    y: 227.24147
+    x: 738.62366
+    y: 156.92897
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4210,7 +4263,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I'm Zol, and I didnt catch your name. You are?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4249,7 +4302,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Hi gorgeous., what's a fine lady like you drinking alone at this hour.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4344,7 +4397,7 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4504,7 +4557,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: um.. excuse me..
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4550,7 +4603,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: um.. maybe later..
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4574,7 +4627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 447.24954
+    x: 448.74207
     y: 111.851746
     width: 120
     height: 40
@@ -4720,7 +4773,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: hi... hello! It's a good day isn't it? I'm Zol. You are?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4774,7 +4827,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '...'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 129543954}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4785,6 +4838,20 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1038787012
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 1
+  key: girlName
+  value: Girl
 --- !u!1 &1041174875
 GameObject:
   m_ObjectHideFlags: 0
@@ -5102,7 +5169,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1252756789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 718.81665, y: -336.87, z: 0}
+  m_LocalPosition: {x: 888.16675, y: -336.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1407945110}
