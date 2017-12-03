@@ -65,7 +65,9 @@ public class DrunkManager : MonoBehaviour {
                 blur.enabled = true;
                 blur.blurSize = 0;
                 blur.blurIterations = 0;
-                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 1, 2).SetLoops(-1, LoopType.Yoyo).Play();
+                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 1, 2)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .Play();
 
                 chromaticAberration.enabled = true;
                 SetChromaticAberrationIntensity(0.4f);
@@ -75,7 +77,9 @@ public class DrunkManager : MonoBehaviour {
                 }
                 vignette.enabled = true;
                 SetVignetteIntensity(0f);
-                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.1f, 2).SetLoops(-1, LoopType.Yoyo).Play();
+                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.1f, 2)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .Play();
                 break;
             case 2:
                 if (blurTween != null && blurTween.IsPlaying()) {
@@ -84,7 +88,9 @@ public class DrunkManager : MonoBehaviour {
                 blur.enabled = true;
                 blur.blurSize = 0;
                 blur.blurIterations = 1;
-                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 2, 2).SetLoops(-1, LoopType.Yoyo).Play();
+                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 2, 2)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .Play();
 
                 chromaticAberration.enabled = true;
                 SetChromaticAberrationIntensity(0.8f);
@@ -94,7 +100,9 @@ public class DrunkManager : MonoBehaviour {
                 }
                 vignette.enabled = true;
                 SetVignetteIntensity(0f);
-                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.4f, 2).SetLoops(-1, LoopType.Yoyo).Play();
+                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.4f, 2)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .Play();
                 break;
             case 3:
             default:
@@ -104,7 +112,9 @@ public class DrunkManager : MonoBehaviour {
                 if (blurTween != null && blurTween.IsPlaying()) {
                     blurTween.Kill();
                 }
-                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 3, 2).SetLoops(-1, LoopType.Yoyo).Play();
+                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 3, 2)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .Play();
 
                 chromaticAberration.enabled = true;
                 SetChromaticAberrationIntensity(1);
@@ -114,7 +124,9 @@ public class DrunkManager : MonoBehaviour {
                 }
                 vignette.enabled = true;
                 SetVignetteIntensity(0f);
-                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.6f, 2).SetLoops(-1, LoopType.Yoyo).Play();
+                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.6f, 2)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .Play();
                 break;
         }
     }
