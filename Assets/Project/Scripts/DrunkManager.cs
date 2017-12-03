@@ -8,6 +8,7 @@ public class DrunkManager : MonoBehaviour {
 
     public GameObject mainCamera;
     public Flowchart flowchart;
+    public MultiPortraitCharacter girl;
 
     private int prevFrameDrunkLvl;
     private BlurOptimized blur;
@@ -32,6 +33,8 @@ public class DrunkManager : MonoBehaviour {
         s.intensity = 0f;
         s.smoothness = 0.8f;
         s.roundness = 1.0f;
+
+        girl.key = "plump";
     }
 
     private void Update() {
@@ -57,6 +60,8 @@ public class DrunkManager : MonoBehaviour {
                 }
                 vignette.enabled = false;
                 SetVignetteIntensity(0f);
+
+                girl.key = "plump";
                 break;
             case 1:
                 if (blurTween != null && blurTween.IsPlaying()) {
@@ -80,6 +85,8 @@ public class DrunkManager : MonoBehaviour {
                 vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.1f, 2)
                     .SetLoops(-1, LoopType.Yoyo)
                     .Play();
+
+                girl.key = "normal";
                 break;
             case 2:
                 if (blurTween != null && blurTween.IsPlaying()) {
@@ -103,6 +110,8 @@ public class DrunkManager : MonoBehaviour {
                 vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.4f, 2)
                     .SetLoops(-1, LoopType.Yoyo)
                     .Play();
+
+                girl.key = "sexy";
                 break;
             case 3:
             default:
@@ -127,6 +136,8 @@ public class DrunkManager : MonoBehaviour {
                 vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.6f, 2)
                     .SetLoops(-1, LoopType.Yoyo)
                     .Play();
+
+                girl.key = "sexy";
                 break;
         }
     }
