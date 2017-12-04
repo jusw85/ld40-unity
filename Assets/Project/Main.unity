@@ -311,7 +311,7 @@ RectTransform:
   m_GameObject: {fileID: 77009448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
+  m_LocalScale: {x: 0.008333333, y: 0.008333333, z: 0.008333333}
   m_Children:
   - {fileID: 1403675063}
   - {fileID: 556070770}
@@ -645,7 +645,7 @@ RectTransform:
   m_GameObject: {fileID: 139256547}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.008333334, y: 0.008333334, z: 0.008333334}
+  m_LocalScale: {x: 0.008333333, y: 0.008333333, z: 0.008333333}
   m_Children:
   - {fileID: 2076656710}
   m_Father: {fileID: 500696458}
@@ -2133,8 +2133,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 818944936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 457, y: 270.5, z: 0}
-  m_LocalScale: {x: 0.45083332, y: 0.45083332, z: 0.45083332}
+  m_LocalPosition: {x: 480, y: 270, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 1407945110}
   m_Father: {fileID: 500696458}
@@ -2402,7 +2402,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823855469}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 574.7784, y: -811.925, z: 0}
+  m_LocalPosition: {x: 627.7667, y: -811.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 492677778}
@@ -2669,7 +2669,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 978497491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -427.1784, y: 561.63, z: 0}
+  m_LocalPosition: {x: -480.16675, y: 561.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1407945110}
@@ -2878,8 +2878,6 @@ GameObject:
   - component: {fileID: 1038786954}
   - component: {fileID: 1038786955}
   - component: {fileID: 1038786943}
-  - component: {fileID: 1038786956}
-  - component: {fileID: 1038786957}
   - component: {fileID: 1038786948}
   - component: {fileID: 1038786960}
   - component: {fileID: 1038786963}
@@ -2892,7 +2890,6 @@ GameObject:
   - component: {fileID: 1038786965}
   - component: {fileID: 1038786964}
   - component: {fileID: 1038786968}
-  - component: {fileID: 1038786972}
   - component: {fileID: 1038786971}
   - component: {fileID: 1038786970}
   - component: {fileID: 1038786969}
@@ -2933,27 +2930,17 @@ GameObject:
   - component: {fileID: 1038786998}
   - component: {fileID: 1038786997}
   - component: {fileID: 1038786985}
-  - component: {fileID: 1038786996}
   - component: {fileID: 1038787027}
   - component: {fileID: 1038787028}
   - component: {fileID: 1038787026}
-  - component: {fileID: 1038787060}
   - component: {fileID: 1038787035}
-  - component: {fileID: 1038787046}
-  - component: {fileID: 1038787045}
-  - component: {fileID: 1038787047}
-  - component: {fileID: 1038787061}
-  - component: {fileID: 1038787059}
-  - component: {fileID: 1038787058}
   - component: {fileID: 1038787055}
   - component: {fileID: 1038787044}
-  - component: {fileID: 1038787057}
   - component: {fileID: 1038787054}
   - component: {fileID: 1038786987}
   - component: {fileID: 1038787038}
   - component: {fileID: 1038787041}
   - component: {fileID: 1038787040}
-  - component: {fileID: 1038787039}
   - component: {fileID: 1038786989}
   - component: {fileID: 1038787053}
   - component: {fileID: 1038787052}
@@ -3014,7 +3001,6 @@ GameObject:
   - component: {fileID: 1038787073}
   - component: {fileID: 1038787110}
   - component: {fileID: 1038787109}
-  - component: {fileID: 1038787108}
   - component: {fileID: 1038787030}
   - component: {fileID: 1038787107}
   - component: {fileID: 1038787106}
@@ -3254,7 +3240,6 @@ GameObject:
   - component: {fileID: 1038787341}
   - component: {fileID: 1038787340}
   - component: {fileID: 1038787339}
-  - component: {fileID: 1038787338}
   - component: {fileID: 1038787337}
   - component: {fileID: 1038787336}
   - component: {fileID: 1038787335}
@@ -3287,6 +3272,22 @@ GameObject:
   - component: {fileID: 1038787360}
   - component: {fileID: 1038787359}
   - component: {fileID: 1038787358}
+  - component: {fileID: 1038787364}
+  - component: {fileID: 1038787367}
+  - component: {fileID: 1038787365}
+  - component: {fileID: 1038787366}
+  - component: {fileID: 1038786956}
+  - component: {fileID: 1038786957}
+  - component: {fileID: 1038787372}
+  - component: {fileID: 1038787371}
+  - component: {fileID: 1038787370}
+  - component: {fileID: 1038787369}
+  - component: {fileID: 1038787368}
+  - component: {fileID: 1038787338}
+  - component: {fileID: 1038786972}
+  - component: {fileID: 1038787373}
+  - component: {fileID: 1038786996}
+  - component: {fileID: 1038787039}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3307,18 +3308,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1581.8052, y: -668.6523}
+  scrollPos: {x: 12.118959, y: 20.13768}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 241
-  zoom: 0.64000034
+  blockViewHeight: 519
+  zoom: 0.7900001
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1038787114}
   selectedCommands: []
   variables:
   - {fileID: 1038786940}
@@ -3385,7 +3387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
+    x: 65.82353
     y: 70
     width: 120
     height: 40
@@ -3473,7 +3475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 167
+    x: 163.09483
     y: 152
     width: 120
     height: 40
@@ -3490,6 +3492,7 @@ MonoBehaviour:
   - {fileID: 1038786941}
   - {fileID: 1038786932}
   - {fileID: 1038786942}
+  - {fileID: 1038786956}
   - {fileID: 1038786945}
 --- !u!114 &1038786934
 MonoBehaviour:
@@ -3698,8 +3701,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 28
-  indentLevel: 0
-  storyText: You see {$girlName}.
+  indentLevel: 1
+  storyText: The girl looks beautiful.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3725,8 +3728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 227.2857
-    y: 20.428593
+    x: 236.6607
+    y: 21.991093
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3770,7 +3773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 392.7376
+    x: 391.5181
     y: 309.84317
     width: 120
     height: 40
@@ -3785,8 +3788,6 @@ MonoBehaviour:
   - {fileID: 1038786958}
   - {fileID: 1038786962}
   - {fileID: 1038786951}
-  - {fileID: 1038786956}
-  - {fileID: 1038786972}
   - {fileID: 1038786960}
   - {fileID: 1038786961}
   - {fileID: 1038786950}
@@ -3803,8 +3804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 394.2803
-    y: 391.83557
+    x: 565.8716
+    y: 386.12143
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3818,8 +3819,6 @@ MonoBehaviour:
   - {fileID: 1038786964}
   - {fileID: 1038786966}
   - {fileID: 1038786954}
-  - {fileID: 1038787338}
-  - {fileID: 1038786957}
   - {fileID: 1038786959}
   - {fileID: 1038786965}
   - {fileID: 1038786955}
@@ -3849,18 +3848,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 230.34825
+    x: 227.71257
     y: 216.62741
-    width: 120
+    width: 132.27847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 22
-  blockName: DrinkChoice
+  blockName: Drink Choice
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1038787364}
   - {fileID: 1038786943}
+  - {fileID: 1038787367}
+  - {fileID: 1038787366}
+  - {fileID: 1038787365}
   - {fileID: 1038786953}
   - {fileID: 1038786971}
   - {fileID: 1038786974}
@@ -3899,7 +3902,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 1
-  storyText: You knock back your usual glass of jim beam on the rocks.
+  storyText: 'You knock back your usual glass of Jim Beam on the rocks.{wc}
+
+    It burns as it goes down your throat.{wc}
+
+    It was delicious.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3927,7 +3934,7 @@ MonoBehaviour:
   indentLevel: 1
   text: Trigger your gag reflex
   description: 
-  targetBlock: {fileID: 1038786947}
+  targetBlock: {fileID: 1038786957}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -3973,7 +3980,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 1
-  storyText: You don't feel so good.
+  storyText: 'You don''t feel so good.{wc}
+
+    You puke your guts out in front of the girl.{wc}
+
+    Your cheeks are burning in humiliation, but at least you feel slightly better.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4017,9 +4028,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
-  indentLevel: 1
-  storyText: It burns as it goes down your throat.
+  itemId: 526
+  indentLevel: 0
+  storyText: Over by the corner, you spot a lovely seductress wearing a cream coloured
+    slip dress.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4040,25 +4052,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038786926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 30
-  indentLevel: 1
-  storyText: Your cheeks are burning in humiliation, but at least you feel slightly
-    better.
+  nodeRect:
+    serializedVersion: 2
+    x: 388.72873
+    y: 387.54974
+    width: 128.481
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 535
+  blockName: Puke (Copy)
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1038787372}
+  - {fileID: 1038787371}
+  - {fileID: 1038787370}
+  - {fileID: 1038787369}
+  - {fileID: 1038787368}
+  - {fileID: 1038787338}
+  - {fileID: 1038786972}
 --- !u!114 &1038786958
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4294,7 +4310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: Say something to her
+  storyText: Say something to her.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4302,7 +4318,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -4320,24 +4336,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 388.98044
-    y: 226.41142
-    width: 120
+    x: 384.8575
+    y: 224.98285
+    width: 170.25314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 46
-  blockName: Speech 1
+  blockName: Start Conversation
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1038786969}
   - {fileID: 1038787318}
   - {fileID: 1038786983}
-  - {fileID: 1038786976}
   - {fileID: 1038786977}
   - {fileID: 1038787175}
   - {fileID: 1038786980}
+  - {fileID: 1038786976}
 --- !u!114 &1038786971
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4351,7 +4367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  text: conversation
+  text: Strike up conversation
   description: 
   targetBlock: {fileID: 1038786970}
   hideIfVisited: 0
@@ -4370,24 +4386,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038786926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 44
-  indentLevel: 1
-  storyText: it was delicious
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  itemId: 534
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1038786949}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &1038786973
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4491,7 +4501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: info
   value: 0
 --- !u!114 &1038786979
@@ -4533,7 +4543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 1
-  text: return to her
+  text: Return to her
   description: 
   targetBlock: {fileID: 1038787114}
   hideIfVisited: 0
@@ -4557,14 +4567,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 541.23627
-    y: 224.09326
+    x: 561.2364
+    y: 221.23611
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 55
-  blockName: small talk
+  blockName: Small talk
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -4599,12 +4609,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 712.65485
     y: 576.90796
-    width: 121.87496
+    width: 138.60757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 54
-  blockName: ask about her
+  blockName: Ask about her
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -4665,7 +4675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  text: ask about her
+  text: Ask about her
   description: 
   targetBlock: {fileID: 1038786982}
   hideIfVisited: 0
@@ -4717,20 +4727,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 864.62714
     y: 301.09625
-    width: 139.06245
+    width: 153.79745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 122
-  blockName: Sweet vermouth
+  blockName: Sweet Vermouth
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1038787061}
-  - {fileID: 1038787060}
-  - {fileID: 1038787059}
-  - {fileID: 1038787058}
-  - {fileID: 1038787057}
+  - {fileID: 1038786996}
   - {fileID: 1038787055}
   - {fileID: 1038787054}
   - {fileID: 1038786987}
@@ -4812,7 +4818,6 @@ MonoBehaviour:
   - {fileID: 1038787052}
   - {fileID: 1038787031}
   - {fileID: 1038786999}
-  - {fileID: 1038787108}
 --- !u!114 &1038786990
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4947,24 +4952,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038786926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 119
+  itemId: 539
   indentLevel: 0
-  storyText: You signal to the bartender.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Zol: You call the bartender over.
+
+      Zol: Sweet vermouth on the rocks with a twist, please.
+
+      Girl Right:
+
+      Bartender Bartender_1 Left: For you, miss?
+
+      Girl: The same.\nThat''s my favourite drink!
+
+      Bartender Hide:
+
+      Girl Pose Middle:
+
+      Zol: Mine too!'
 --- !u!114 &1038786997
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4978,7 +4987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 867.09656
+    x: 865.78076
     y: 164.98181
     width: 120
     height: 40
@@ -4989,11 +4998,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1038786996}
-  - {fileID: 1038787047}
-  - {fileID: 1038787046}
-  - {fileID: 1038787045}
   - {fileID: 1038787044}
+  - {fileID: 1038787373}
   - {fileID: 1038787042}
   - {fileID: 1038787348}
   - {fileID: 1038787347}
@@ -5010,7 +5016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  text: Jim Beam
+  text: Order a Jim Beam
   description: 
   targetBlock: {fileID: 1038786997}
   hideIfVisited: 0
@@ -5058,9 +5064,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1149.093
+    x: 1147.7772
     y: 415.33487
-    width: 120
+    width: 127.21518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5116,7 +5122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: um.. maybe later.
+  storyText: Um... maybe later.
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -5142,14 +5148,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 554.2002
+    x: 552.8303
     y: 58.705368
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 92
-  blockName: gtg
+  blockName: Gtg
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5196,14 +5202,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 722.46545
+    x: 719.7798
     y: 228.66162
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 90
-  blockName: buy drink
+  blockName: Buy drink
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5232,7 +5238,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -5342,8 +5348,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1433.5566
-    y: 561.3019
+    x: 1437.504
+    y: 561.30194
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5370,7 +5376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 1
   key: girlName
-  value: girl
+  value: Girl
 --- !u!114 &1038787013
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5384,7 +5390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 1
-  storyText: 'um.. excuse me..
+  storyText: 'Um... excuse me... {wi}
 
     How do I address you, miss?'
   description: 
@@ -5463,7 +5469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 1
-  storyText: 'not interested...
+  storyText: 'Not interested...
 
 '
   description: 
@@ -5491,11 +5497,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 1
-  storyText: 'Hey miss, you look like a 9/10 to me.
+  storyText: 'Hey miss, you look like a 9/10 to me.{wi}
 
-    I am the 1 you need.
-
-'
+    I am the one you need.'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -5521,7 +5525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 1
-  text: escape
+  text: Maybe later
   description: 
   targetBlock: {fileID: 1038787003}
   hideIfVisited: 0
@@ -5545,7 +5549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 2
-  text: buy her a drink
+  text: Buy her a drink
   description: 
   targetBlock: {fileID: 1038787005}
   hideIfVisited: 0
@@ -5569,7 +5573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 1
-  storyText: "...Enjoying the company of being alone at this moment. \nGood day to
+  storyText: "... Enjoying the company of being alone at the moment. \nGood day to
     you, sir."
   description: 
   character: {fileID: 133140462}
@@ -5578,7 +5582,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -5596,7 +5600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 1
-  storyText: So... What are the chances of getting out today?
+  storyText: So... What are the chances of going out today?
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -5648,7 +5652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  text: waste of time
+  text: Waste of time
   description: 
   targetBlock: {fileID: 1038787024}
   hideIfVisited: 0
@@ -5674,7 +5678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1572.4982
     y: 529.1781
-    width: 124.99996
+    width: 136.07594
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5723,7 +5727,7 @@ MonoBehaviour:
   storyText: "I was always... \nthen... {wc}\nof course...\nisn't it?"
   description: 
   character: {fileID: 133140462}
-  portrait: {fileID: 21300000, guid: 817cc0de63814d54188cf40f9f3e56b6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5833,7 +5837,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 224
-  blockName: french
+  blockName: French
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5858,7 +5862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  text: Groundhog
+  text: The Groundhog
   description: 
   targetBlock: {fileID: 1038787032}
   hideIfVisited: 0
@@ -5893,10 +5897,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1038787048}
   - {fileID: 1038787050}
   - {fileID: 1038787049}
   - {fileID: 1038787229}
-  - {fileID: 1038787048}
   - {fileID: 1038787033}
 --- !u!114 &1038787033
 MonoBehaviour:
@@ -5911,7 +5915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 160
   indentLevel: 0
-  text: escape
+  text: Maybe later
   description: 
   targetBlock: {fileID: 1038787003}
   hideIfVisited: 0
@@ -5962,7 +5966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  text: Sweet vermouth
+  text: Order a sweet vermouth
   description: 
   targetBlock: {fileID: 1038786985}
   hideIfVisited: 0
@@ -6012,8 +6016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1018.34326
-    y: 239.65742
+    x: 1028.8696
+    y: 234.39426
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6037,9 +6041,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 150
+  itemId: 541
   indentLevel: 0
-  text: escape
+  text: Maybe later
   description: 
   targetBlock: {fileID: 1038787003}
   hideIfVisited: 0
@@ -6063,7 +6067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: "That's creepy, \nI dont even know you."
+  storyText: That's creepy, I dont even know you.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -6071,7 +6075,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -6089,7 +6093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 148
   indentLevel: 0
-  storyText: '...your beautiful smile.'
+  storyText: '... your beautiful smile.'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -6115,7 +6119,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: "Such a lovely drink! \nIt reminds me of.."
+  storyText: 'Such a lovely drink! {wi}
+
+    It reminds me of...'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -6123,7 +6129,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -6175,86 +6181,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &1038787045
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 133
-  indentLevel: 0
-  storyText: Sweet vermouth on the rocks with a twist, please.
-  description: 
-  character: {fileID: 133140462}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1038787046
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 132
-  indentLevel: 0
-  storyText: For you, miss?
-  description: 
-  character: {fileID: 678721602}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1038787047
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 134
-  indentLevel: 0
-  storyText: 'Jim bean, ice, water.
-
-'
-  description: 
-  character: {fileID: 129543954}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1038787048
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6321,7 +6247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  storyText: To the groundhog!
+  storyText: To the Groundhog!
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -6382,7 +6308,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -6458,7 +6384,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -6491,138 +6417,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1038787057
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 144
-  indentLevel: 0
-  storyText: Mine too!
-  description: 
-  character: {fileID: 129543954}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1038787058
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 137
-  indentLevel: 0
-  storyText: 'The same.
-
-    That''s my favourite drink!'
-  description: 
-  character: {fileID: 133140462}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1038787059
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 136
-  indentLevel: 0
-  storyText: For you, miss?
-  description: 
-  character: {fileID: 678721602}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1038787060
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 130
-  indentLevel: 0
-  storyText: Sweet vermouth on the rocks with a twist, please.
-  description: 
-  character: {fileID: 129543954}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1038787061
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 135
-  indentLevel: 0
-  storyText: You signal to the bartender.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1038787062
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6636,7 +6430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 171
   indentLevel: 1
-  storyText: 'not interested...
+  storyText: 'Not interested...
 
 '
   description: 
@@ -6684,7 +6478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 179
   indentLevel: 0
-  text: career
+  text: Your career
   description: 
   targetBlock: {fileID: 1038787065}
   hideIfVisited: 0
@@ -6715,7 +6509,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 186
-  blockName: career
+  blockName: Career
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6841,12 +6635,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1434.2782
     y: 487.88812
-    width: 120
+    width: 129.74683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 209
-  blockName: million miles
+  blockName: Million miles
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -6929,7 +6723,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -6947,7 +6741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 204
   indentLevel: 0
-  storyText: Um.. okay, scientist. Guess we don't learn that studying literature.
+  storyText: Um... okay, scientist. Guess we don't learn that studying literature.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -6977,7 +6771,7 @@ MonoBehaviour:
 
     Stop exaggerating.
 
-    That''s like going around earth 40 times!'
+    That''s like going around the Earth forty times!'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -7034,7 +6828,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 208
-  blockName: why study
+  blockName: Why study
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7080,7 +6874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 1
-  storyText: Dude, I am not that kind of person.
+  storyText: Hey, I'm not that kind of person.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -7132,7 +6926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 193
   indentLevel: 0
-  storyText: 'It is a million miles from where I started in college.
+  storyText: 'It''s a million miles from where I started in college.
 
 '
   description: 
@@ -7142,7 +6936,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -7294,7 +7088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: How people place too much emphasis on their careers.
+  storyText: '... how people place too much emphasis on their careers.'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -7320,7 +7114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 181
   indentLevel: 0
-  text: her body
+  text: Your body
   description: 
   targetBlock: {fileID: 1038787089}
   hideIfVisited: 0
@@ -7351,7 +7145,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 182
-  blockName: hot body
+  blockName: Hot body
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7422,7 +7216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 183
   indentLevel: 0
-  storyText: You have a rocking hot body, {$girlName}
+  storyText: '... your rocking hot body, {$girlName}'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -7448,7 +7242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 0
-  storyText: You know, {$girlName}, I have always wondered about...
+  storyText: You know, {$girlName}, I've always wondered about...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7456,7 +7250,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -7501,7 +7295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: I am Rita.
+  storyText: I'm Rita.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -7527,7 +7321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 180
   indentLevel: 0
-  storyText: "I am Zol. \nAnd you are?"
+  storyText: "I'm Zol. \nAnd you are?"
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -7713,9 +7507,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: 'Believe it or not, I studied french poetry.
+  storyText: 'Believe it or not, I studied French poetry.
 
-    Now, I am just working in the bank.'
+    Now, I''m just working in a bank.'
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -7822,7 +7616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 225
   indentLevel: 0
-  text: french
+  text: French
   description: 
   targetBlock: {fileID: 1038787030}
   hideIfVisited: 0
@@ -7833,19 +7627,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1038787108
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1038786926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 223
-  indentLevel: 0
 --- !u!114 &1038787109
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8347,7 +8128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 340
   indentLevel: 2
-  storyText: let's keep our drinks "flowing" then.
+  storyText: Let's keep our drinks "flowing" then.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -8427,7 +8208,7 @@ MonoBehaviour:
   indentLevel: 3
   storyText: 'I work in a bank, and he is a male model.
 
-    It''s like I don''t know what he is up to all the time.'
+    It''s like I don''t know what he''s up to all the time.'
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -8672,7 +8453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 325
   indentLevel: 1
-  storyText: .. Like a soulmate?
+  storyText: '... Like a soulmate?'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -8724,9 +8505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 322
   indentLevel: 2
-  storyText: 'Nah I don''t believe in soul mates.
-
-'
+  storyText: Nah, I don't believe in soul mates.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -9298,7 +9077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 297
   indentLevel: 1
-  text: better guys
+  text: Better guys
   description: 
   targetBlock: {fileID: 1038787202}
   hideIfVisited: 0
@@ -9335,7 +9114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 295
   indentLevel: 1
-  storyText: 'You know ... guys out there suck.
+  storyText: 'You know... guys out there suck.
 
     Like my boyfriend, always hanging out with prettier girls!
 
@@ -9432,7 +9211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 288
   indentLevel: 1
-  storyText: Yes, yes wednesday.
+  storyText: Yes, yes Wednesday.
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -9511,7 +9290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 284
   indentLevel: 1
-  storyText: "It's wednesday, dude! \n"
+  storyText: "It's Wednesday, dude! \n"
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -9679,7 +9458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 277
   indentLevel: 1
-  storyText: you should go
+  storyText: You should go.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -9707,7 +9486,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Shouldn''t have bored you with my silly stories.
 
-    Let''s drink'
+    Let''s drink!'
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -9891,7 +9670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 268
   indentLevel: 1
-  storyText: er.. Drinks?
+  storyText: er... Drinks?
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -10077,7 +9856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2003.1343
     y: 748.32465
-    width: 120
+    width: 122.15189
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10132,7 +9911,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2006.2333
     y: 678.9849
-    width: 120
+    width: 122.15189
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10160,8 +9939,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 260
   indentLevel: 3
-  storyText: "Well, he is very nice to me, \nbut sometimes I feel that we have nothing
-    in common.\n"
+  storyText: 'Well, he''s very nice to me, but sometimes I feel that we have nothing
+    in common.
+
+'
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -10189,7 +9970,7 @@ MonoBehaviour:
   indentLevel: 3
   storyText: 'Sometimes you just know when you know it.
 
-    How is he like?'
+    What''s he like?'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -10241,7 +10022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 257
   indentLevel: 1
-  storyText: 'I don''t believe in soul mates
+  storyText: 'I don''t believe in soul mates.
 
     As you said, just go with the flow, right?
 
@@ -10297,9 +10078,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 255
   indentLevel: 1
-  storyText: 'er..
+  storyText: 'Er..
 
-    did you just call me boring?'
+    Did you just call me boring?'
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -10353,7 +10134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 253
   indentLevel: 0
-  text: soul mate
+  text: Soul mate
   description: 
   targetBlock: {fileID: 1038787213}
   hideIfVisited: 0
@@ -10377,7 +10158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 252
   indentLevel: 0
-  text: boring
+  text: Boring
   description: 
   targetBlock: {fileID: 1038787214}
   hideIfVisited: 0
@@ -10511,7 +10292,7 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'You know when people say there is someone out there..
 
-    But then the guy you are with is not that person..{wc}
+    But then the guy you are with is not that person...{wc}
 
     And how do you tell if the one is the one?
 
@@ -10541,7 +10322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 249
   indentLevel: 1
-  storyText: I am all ears.
+  storyText: I'm all ears.
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -10621,7 +10402,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1713.1388
     y: 660.0596
-    width: 120
+    width: 122.15189
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10665,7 +10446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 244
   indentLevel: 0
-  text: Wednesday
+  text: It's Wednesday!
   description: 
   targetBlock: {fileID: 1038787219}
   hideIfVisited: 0
@@ -10717,7 +10498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 239
   indentLevel: 1
-  storyText: It's only wednesday...
+  storyText: It's only Wednesday...
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -10769,9 +10550,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 237
   indentLevel: 0
-  storyText: 'It''s friday, and I just want to get myself wasted.
+  storyText: 'It''s Friday, and I just want to get myself wasted.
 
-    Woooo!!'
+    Woooo!!!'
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -10797,7 +10578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 236
   indentLevel: 0
-  text: Friday
+  text: It's Friday!
   description: 
   targetBlock: {fileID: 1038787226}
   hideIfVisited: 0
@@ -10917,7 +10698,7 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 1
+  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -11109,7 +10890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 366
   indentLevel: 1
-  storyText: Are you the rich guy, Zol?
+  storyText: Are you that rich guy, Zol?
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -11234,7 +11015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 360
   indentLevel: 1
-  storyText: You are quite cute yourself too.
+  storyText: You're quite cute yourself.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -11562,7 +11343,7 @@ MonoBehaviour:
     A lady can dream right?'
   description: 
   character: {fileID: 133140462}
-  portrait: {fileID: 21300000, guid: 817cc0de63814d54188cf40f9f3e56b6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11672,7 +11453,7 @@ MonoBehaviour:
     Hahaha!'
   description: 
   character: {fileID: 133140462}
-  portrait: {fileID: 21300000, guid: 817cc0de63814d54188cf40f9f3e56b6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11784,7 +11565,7 @@ MonoBehaviour:
     let''s drink to it, i guess?'
   description: 
   character: {fileID: 133140462}
-  portrait: {fileID: 21300000, guid: 817cc0de63814d54188cf40f9f3e56b6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12764,7 +12545,7 @@ MonoBehaviour:
 
     {$girlName} drinks.'
   description: 
-  character: {fileID: 129543954}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12814,9 +12595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 409
   indentLevel: 3
-  storyText: 'I work in a bank, doing office work,
-
-    while he is working for a model agency.'
+  storyText: I work in a bank, doing office work, while he works in a model agency.
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -12844,7 +12623,7 @@ MonoBehaviour:
   indentLevel: 2
   storyText: 'It''s my boyfriend.
 
-    How do you know for sure, if he is the one?'
+    How do you know for sure, if he''s the one?'
   description: 
   character: {fileID: 133140462}
   portrait: {fileID: 0}
@@ -12954,7 +12733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 400
   indentLevel: 2
-  storyText: You took a sip of your drink.
+  storyText: You take a sip of your drink.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -13011,7 +12790,7 @@ MonoBehaviour:
   storyText: Perhaps a drink first?
   description: 
   character: {fileID: 133140462}
-  portrait: {fileID: 21300000, guid: 817cc0de63814d54188cf40f9f3e56b6, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -13145,7 +12924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 474
   indentLevel: 0
-  text: small talk
+  text: Make small talk
   description: 
   targetBlock: {fileID: 1038786981}
   hideIfVisited: 0
@@ -13512,7 +13291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 404
   indentLevel: 1
-  storyText: Sometimes you don't have to look too far..
+  storyText: Sometimes you don't have to look too far...
   description: 
   character: {fileID: 129543954}
   portrait: {fileID: 0}
@@ -13627,24 +13406,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038786926}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 489
-  indentLevel: 1
-  storyText: You puke your guts out in front of the girl.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  itemId: 533
+  indentLevel: 0
 --- !u!114 &1038787339
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -13869,7 +13635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 479
   indentLevel: 0
-  text: Your smile.
+  text: Your smile
   description: 
   targetBlock: {fileID: 1038787038}
   hideIfVisited: 0
@@ -14227,6 +13993,222 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 516
   indentLevel: 0
+--- !u!114 &1038787364
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d396bcbf372485cad471c0bb64bb44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 522
+  indentLevel: 0
+  luaEnvironment: {fileID: 0}
+  luaCompareString: flowchart.getStringVariable("girlName") == "Girl"
+--- !u!114 &1038787365
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 524
+  indentLevel: 0
+--- !u!114 &1038787366
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 525
+  indentLevel: 1
+  storyText: '{$girlName} looks beautiful.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1038787367
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 523
+  indentLevel: 0
+--- !u!114 &1038787368
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71f455683d4ba4405b8dbba457159620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 532
+  indentLevel: 1
+  luaEnvironment: {fileID: 0}
+  luaFile: {fileID: 0}
+  luaScript: 'local drunkLvl = getvar(flowchart, "drunkLvl").value
+
+    drunkLvl = drunkLvl /2
+
+    drunkLvl = math.max(0, drunkLvl)
+
+    return drunkLvl'
+  runAsCoroutine: 1
+  waitUntilFinished: 1
+  returnVariable: {fileID: 1038786940}
+--- !u!114 &1038787369
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 531
+  indentLevel: 1
+  storyText: 'You don''t feel so good.{wc}
+
+    You puke your guts out in front of the girl.{wc}
+
+    Your cheeks are burning in humiliation, but at least you feel slightly better.'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1038787370
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 530
+  indentLevel: 0
+--- !u!114 &1038787371
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 529
+  indentLevel: 1
+  storyText: You don't feel like puking.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1038787372
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 528
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 1038786940}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1038787373
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1038786926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 537
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: 'Zol: You call the bartender over.
+
+      Zol: Jim bean, ice, water.
+
+      Girl Right:
+
+      Bartender Bartender_1 Left: For you, miss?
+
+      Girl: Sweet vermouth on the rocks with a twist, please.
+
+      Bartender Hide:
+
+      Girl Pose Middle:'
 --- !u!1 &1041174875
 GameObject:
   m_ObjectHideFlags: 0
@@ -14544,7 +14526,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1252756789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 835.1784, y: -336.87, z: 0}
+  m_LocalPosition: {x: 888.16675, y: -336.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1407945110}
