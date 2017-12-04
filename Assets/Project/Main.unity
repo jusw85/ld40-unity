@@ -231,6 +231,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 509014192}
   flowchart: {fileID: 1038786927}
+  girl: {fileID: 0}
+  drunkVariable: drunkLvl
+  defaultVignetteSmoothness: 0.8
+  defaultVignetteRoundness: 1
+  drunkLevelSettings:
+  - minValue: 0
+    maxValue: 0
+    blurEnabled: 0
+    blurSize: 0
+    blurIterations: 0
+    chromaticAberrationEnabled: 0
+    chromaticAberrationIntensity: 0
+    vignetteEnabled: 0
+    vignetteIntensity: 0
+  - minValue: 1
+    maxValue: 1
+    blurEnabled: 1
+    blurSize: 1
+    blurIterations: 0
+    chromaticAberrationEnabled: 1
+    chromaticAberrationIntensity: 0.4
+    vignetteEnabled: 1
+    vignetteIntensity: 0.1
+  - minValue: 2
+    maxValue: 2
+    blurEnabled: 1
+    blurSize: 2
+    blurIterations: 1
+    chromaticAberrationEnabled: 1
+    chromaticAberrationIntensity: 0.8
+    vignetteEnabled: 1
+    vignetteIntensity: 0.4
+  - minValue: 3
+    maxValue: 3
+    blurEnabled: 1
+    blurSize: 3
+    blurIterations: 2
+    chromaticAberrationEnabled: 1
+    chromaticAberrationIntensity: 1
+    vignetteEnabled: 1
+    vignetteIntensity: 0.6
 --- !u!1 &77009448
 GameObject:
   m_ObjectHideFlags: 0
