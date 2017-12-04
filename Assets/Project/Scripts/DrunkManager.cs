@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.ImageEffects;
 using UnityEngine.PostProcessing;
@@ -10,136 +11,98 @@ public class DrunkManager : MonoBehaviour {
     public Flowchart flowchart;
     public MultiPortraitCharacter girl;
 
-    private int prevFrameDrunkLvl;
-    private BlurOptimized blur;
-    private Tween blurTween;
-    private Tween vignetteTween;
+    public string drunkVariable = "drunkLvl";
+    public float defaultVignetteSmoothness = 0.8f;
+    public float defaultVignetteRoundness = 1.0f;
+    public float effectLoopDuration = 2.0f;
 
+    private int prevFrameDrunkLvl;
+
+    private BlurOptimized blur;
     private ChromaticAberrationModel chromaticAberration;
     private VignetteModel vignette;
 
+    private Tween blurTween;
+    private Tween vignetteTween;
+
     private void Start() {
-        prevFrameDrunkLvl = flowchart.GetIntegerVariable("drunkLvl");
+        prevFrameDrunkLvl = drunkValToDrunkLvl(flowchart.GetIntegerVariable("drunkLvl"));
         blur = mainCamera.GetComponent<BlurOptimized>();
 
         var postProcessingBehaviour = mainCamera.GetComponent<PostProcessingBehaviour>();
+
         chromaticAberration = postProcessingBehaviour.profile.chromaticAberration;
         chromaticAberration.enabled = false;
-        SetChromaticAberrationIntensity(0);
+        SetChromaticAberrationIntensity(0f);
 
         vignette = postProcessingBehaviour.profile.vignette;
         vignette.enabled = false;
+        SetVignetteIntensity(0f);
         var s = vignette.settings;
-        s.intensity = 0f;
-        s.smoothness = 0.8f;
-        s.roundness = 1.0f;
+        s.smoothness = defaultVignetteSmoothness;
+        s.roundness = defaultVignetteRoundness;
+        vignette.settings = s;
 
-        girl.key = "plump";
+        if (girl != null)
+            girl.key = "plump";
     }
 
     private void Update() {
-        int drunkLvl = flowchart.GetIntegerVariable("drunkLvl");
+        int drunkLvl = drunkValToDrunkLvl(flowchart.GetIntegerVariable(drunkVariable));
         if (prevFrameDrunkLvl == drunkLvl)
             return;
         prevFrameDrunkLvl = drunkLvl;
 
-        switch (drunkLvl) {
-            case 0:
-                if (blurTween != null && blurTween.IsPlaying()) {
-                    blurTween.Kill();
-                }
-                blur.enabled = false;
-                blur.blurSize = 0;
-                blur.blurIterations = 0;
+        DrunkLevelSetting s = drunkLevelSettings[drunkLvl];
 
-                chromaticAberration.enabled = false;
-                SetChromaticAberrationIntensity(0);
-
-                if (vignetteTween != null && vignetteTween.IsPlaying()) {
-                    vignetteTween.Kill();
-                }
-                vignette.enabled = false;
-                SetVignetteIntensity(0f);
-
-                girl.key = "plump";
-                break;
-            case 1:
-                if (blurTween != null && blurTween.IsPlaying()) {
-                    blurTween.Kill();
-                }
-                blur.enabled = true;
-                blur.blurSize = 0;
-                blur.blurIterations = 0;
-                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 1, 2)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .Play();
-
-                chromaticAberration.enabled = true;
-                SetChromaticAberrationIntensity(0.4f);
-
-                if (vignetteTween != null && vignetteTween.IsPlaying()) {
-                    vignetteTween.Kill();
-                }
-                vignette.enabled = true;
-                SetVignetteIntensity(0f);
-                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.1f, 2)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .Play();
-
-                girl.key = "normal";
-                break;
-            case 2:
-                if (blurTween != null && blurTween.IsPlaying()) {
-                    blurTween.Kill();
-                }
-                blur.enabled = true;
-                blur.blurSize = 0;
-                blur.blurIterations = 1;
-                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 2, 2)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .Play();
-
-                chromaticAberration.enabled = true;
-                SetChromaticAberrationIntensity(0.8f);
-
-                if (vignetteTween != null && vignetteTween.IsPlaying()) {
-                    vignetteTween.Kill();
-                }
-                vignette.enabled = true;
-                SetVignetteIntensity(0f);
-                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.4f, 2)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .Play();
-
-                girl.key = "sexy";
-                break;
-            case 3:
-            default:
-                blur.enabled = true;
-                blur.blurSize = 0;
-                blur.blurIterations = 2;
-                if (blurTween != null && blurTween.IsPlaying()) {
-                    blurTween.Kill();
-                }
-                blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, 3, 2)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .Play();
-
-                chromaticAberration.enabled = true;
-                SetChromaticAberrationIntensity(1);
-
-                if (vignetteTween != null && vignetteTween.IsPlaying()) {
-                    vignetteTween.Kill();
-                }
-                vignette.enabled = true;
-                SetVignetteIntensity(0f);
-                vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), 0.6f, 2)
-                    .SetLoops(-1, LoopType.Yoyo)
-                    .Play();
-
-                girl.key = "sexy";
-                break;
+        if (blurTween != null && blurTween.IsPlaying()) {
+            blurTween.Kill();
         }
+        blur.enabled = s.blurEnabled;
+        blur.blurSize = 0;
+        blur.blurIterations = s.blurIterations;
+        if (blur.enabled) {
+            blurTween = DOTween.To(() => blur.blurSize, x => blur.blurSize = x, s.blurSize, effectLoopDuration)
+                .SetLoops(-1, LoopType.Yoyo)
+                .Play();
+        }
+
+        chromaticAberration.enabled = s.chromaticAberrationEnabled;
+        SetChromaticAberrationIntensity(s.chromaticAberrationIntensity);
+
+        if (vignetteTween != null && vignetteTween.IsPlaying()) {
+            vignetteTween.Kill();
+        }
+        vignette.enabled = s.vignetteEnabled;
+        SetVignetteIntensity(0f);
+        if (vignette.enabled) {
+            vignetteTween = DOTween.To(() => vignette.settings.intensity, x => SetVignetteIntensity(x), s.vignetteIntensity, effectLoopDuration)
+                .SetLoops(-1, LoopType.Yoyo)
+                .Play();
+        }
+        //switch (drunkVal) {
+        //    case 0:
+
+        //        if (girl != null)
+        //            girl.key = "plump";
+        //        break;
+        //    case 1:
+
+        //        if (girl != null)
+        //            girl.key = "normal";
+        //        break;
+        //    case 2:
+
+        //        if (girl != null)
+        //            girl.key = "sexy";
+        //        break;
+        //    case 3:
+        //    default:
+
+        //        if (girl != null)
+        //            girl.key = "sexy";
+        //        break;
+        //}
     }
 
     private void SetChromaticAberrationIntensity(float intensity) {
@@ -152,5 +115,36 @@ public class DrunkManager : MonoBehaviour {
         var settings = vignette.settings;
         settings.intensity = intensity;
         vignette.settings = settings;
+    }
+
+    private int drunkValToDrunkLvl(int drunkVal) {
+        if (drunkVal < drunkLevelSettings[0].minValue) {
+            return 0;
+        }
+        for (int i = 0; i < drunkLevelSettings.Length; i++) {
+            DrunkLevelSetting s = drunkLevelSettings[i];
+            if (drunkVal >= s.minValue && drunkVal <= s.maxValue) {
+                return i;
+            }
+        }
+        return drunkLevelSettings.Length - 1;
+    }
+
+    public DrunkLevelSetting[] drunkLevelSettings;
+
+    [System.Serializable]
+    public class DrunkLevelSetting {
+        public int minValue;
+        public int maxValue;
+
+        public bool blurEnabled = false;
+        public int blurSize = 0;
+        public int blurIterations = 0;
+
+        public bool chromaticAberrationEnabled = false;
+        public float chromaticAberrationIntensity = 0;
+
+        public bool vignetteEnabled = false;
+        public float vignetteIntensity = 0;
     }
 }
