@@ -11,6 +11,9 @@ public class MultiPortraitCharacter : Character {
     private string prevFrameKey = "";
 
     private void Update() {
+        if (!Application.isPlaying) {
+            return;
+        }
         if (prevFrameKey.Equals(key)) {
             return;
         }
