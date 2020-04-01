@@ -176,6 +176,10 @@ namespace Fungus
         {
             StopAllCoroutines();
 
+            //if something was shown notify that we are ending
+            if(nextOptionIndex != 0)
+                MenuSignals.DoMenuEnd(this);
+
             nextOptionIndex = 0;
 
             var optionButtons = CachedButtons;
@@ -236,10 +240,6 @@ namespace Fungus
                 if (block != null)
                 {
                     var flowchart = block.GetFlowchart();
-#if UNITY_EDITOR
-                    // Select the new target block in the Flowchart window
-                    flowchart.SelectedBlock = block;
-#endif
                     gameObject.SetActive(false);
                     // Use a coroutine to call the block on the next frame
                     // Have to use the Flowchart gameobject as the MenuDialog is now inactive
@@ -290,10 +290,16 @@ namespace Fungus
         private bool AddOption(string text, bool interactable, bool hideOption, UnityEngine.Events.UnityAction action)
         {
             if (nextOptionIndex >= CachedButtons.Length)
+            {
+                Debug.LogWarning("Unable to add menu item, not enough buttons: " + text);
                 return false;
+            }
+            //if first option notify that a menu has started
+            if(nextOptionIndex == 0)
+                MenuSignals.DoMenuStart(this);
 
             var button = cachedButtons[nextOptionIndex];
-
+            
             //move forward for next call
             nextOptionIndex++;
 
@@ -307,14 +313,18 @@ namespace Fungus
             {
                 EventSystem.current.SetSelectedGameObject(button.gameObject);
             }
-            Text textComponent = button.GetComponentInChildren<Text>();
-            if (textComponent != null)
+
+            TextAdapter textAdapter = new TextAdapter();
+            textAdapter.InitFromGameObject(button.gameObject, true);
+            if (textAdapter.HasTextObject())
             {
-                textComponent.text = text;
+                text = TextVariationHandler.SelectVariations(text);
+
+                textAdapter.Text = text;
             }
+
             button.onClick.AddListener(action);
             
-
             return true;
         }
 
@@ -331,6 +341,10 @@ namespace Fungus
                 gameObject.SetActive(true);
                 StopAllCoroutines();
                 StartCoroutine(WaitForTimeout(duration, targetBlock));
+            }
+            else
+            {
+                Debug.LogWarning("Unable to show timer, no slider set");
             }
         }
 
