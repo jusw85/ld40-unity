@@ -25,10 +25,17 @@ namespace Fungus
         //sorted list of the GO instance IDs that have flowcharts on them
         static List<int> flowchartIDs = new List<int>();
 
+        static bool initalHierarchyCheckFlag = true;
+
         static HierarchyIcons()
-        {   
+        {
+            initalHierarchyCheckFlag = true;
             EditorApplication.hierarchyWindowItemOnGUI += HierarchyIconCallback;
+#if UNITY_2018_1_OR_NEWER
+            EditorApplication.hierarchyChanged += HierarchyChanged;
+#else
             EditorApplication.hierarchyWindowChanged += HierarchyChanged;
+#endif
         }
 
         //track all gameobjectIds that have flowcharts on them
@@ -48,12 +55,22 @@ namespace Fungus
         //Draw icon if the isntance id is in our cached list
         static void HierarchyIconCallback(int instanceID, Rect selectionRect)
         {
+            if(initalHierarchyCheckFlag)
+            {
+                HierarchyChanged();
+                initalHierarchyCheckFlag = false;
+            }
+
             if (EditorUtils.FungusEditorPreferences.hideMushroomInHierarchy)
                 return;
 
             // place the icon to the left of the element
             Rect r = new Rect(selectionRect);
+#if UNITY_2019_1_OR_NEWER
+            r.x -= r.height;
+#else
             r.x = 0;
+#endif
             r.width = r.height;
 
             //GameObject go = EditorUtility.InstanceIDToObject(instanceID) as GameObject;

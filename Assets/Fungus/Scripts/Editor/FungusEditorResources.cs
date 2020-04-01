@@ -78,6 +78,7 @@ namespace Fungus.EditorUtils
 
         private static FungusEditorResources instance;
         private static readonly string editorResourcesFolderName = "\"EditorResources\"";
+        private static readonly string PartialEditorResourcesPath = System.IO.Path.Combine("Fungus", "EditorResources");
         [SerializeField] [HideInInspector] private bool updateOnReloadScripts = false;
 
         internal static FungusEditorResources Instance
@@ -97,7 +98,7 @@ namespace Fungus.EditorUtils
                     {
                         if (guids.Length > 1)
                         {
-                            Debug.LogWarning("Multiple FungusEditorResources assets found!");
+                            Debug.LogError("Multiple FungusEditorResources assets found!");
                         }
 
                         var path = AssetDatabase.GUIDToAssetPath(guids[0]);
@@ -111,8 +112,17 @@ namespace Fungus.EditorUtils
 
         private static string GetRootFolder()
         {
-            var rootGuid = AssetDatabase.FindAssets(editorResourcesFolderName)[0];
-            return AssetDatabase.GUIDToAssetPath(rootGuid);
+            var res = AssetDatabase.FindAssets(editorResourcesFolderName);
+
+            foreach (var item in res)
+            {
+                var path = AssetDatabase.GUIDToAssetPath(item);
+                var safePath = System.IO.Path.GetFullPath(path);
+                if (safePath.IndexOf(PartialEditorResourcesPath) != -1)
+                    return path;
+            }
+
+            return string.Empty;
         }
 
         internal static void GenerateResourcesScript()
@@ -136,6 +146,8 @@ namespace Fungus.EditorUtils
                 writer.WriteLine("// This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.com/gofungus).");
                 writer.WriteLine("// It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)");
                 writer.WriteLine("");				
+                writer.WriteLine("#pragma warning disable 0649");
+                writer.WriteLine("");
                 writer.WriteLine("using UnityEngine;");
                 writer.WriteLine("");
                 writer.WriteLine("namespace Fungus.EditorUtils");
